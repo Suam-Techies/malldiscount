@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Goodkind
 
-## Getting Started
+A responsive, independent gift-card information guide built with Next.js.
 
-First, run the development server:
+## Run locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Production URL and search visibility
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The production canonical origin defaults to `https://www.giftcardmallactivation.com`. If the canonical domain changes, set `NEXT_PUBLIC_SITE_URL` to the public HTTPS origin (no trailing slash) in the hosting provider's **Production** environment variables, then rebuild and redeploy. This variable takes precedence over the built-in production default. Local development defaults to `http://localhost:3000`; Vercel's project URL is used there only when available.
 
-## Learn More
+The site provides:
 
-To learn more about Next.js, take a look at the following resources:
+- Page title, description, canonical URL, and social-sharing metadata.
+- A custom SVG favicon, Apple touch icon, and generated social-sharing image.
+- Search-engine directives at `/robots.txt` and a sitemap at `/sitemap.xml`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+After deploying to a public HTTPS domain:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Open `/robots.txt` and `/sitemap.xml` at `https://www.giftcardmallactivation.com` and confirm they contain the canonical domain.
+2. Verify ownership of the domain in [Google Search Console](https://search.google.com/search-console) and [Bing Webmaster Tools](https://www.bing.com/webmasters/about), preferably using their DNS verification instructions.
+3. Submit `https://www.giftcardmallactivation.com/sitemap.xml` in each service's sitemap tools.
+4. Use each service's URL inspection tools to request a crawl of the home page.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Search engines decide when and whether to index a site; submitting a sitemap helps discovery but cannot guarantee visibility or ranking. Keep the public site useful, accurate, and accessible, and use one canonical HTTPS domain consistently.
