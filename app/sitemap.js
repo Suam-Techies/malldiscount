@@ -4,7 +4,7 @@ export default function sitemap() {
   return [
     {
       url: siteUrl.toString(),
-      changeFrequency: "monthly",
+      changeFrequency: "always",
       priority: 1,
     },
   ];
