@@ -4,17 +4,19 @@ import { siteUrl } from "./site-url";
 export const metadata = {
   metadataBase: siteUrl,
   title: {
-    default: "Goodkind | Your Gift Card Field Guide",
-    template: "%s | Goodkind",
+    default: "GiftCardMall & MyGift Guide | Balance & Activation",
+    template: "%s | GiftCardMall & MyGift Guide",
   },
   description:
-    "Simple, independent tips for checking, using, and keeping your gift cards safe.",
+    "Independent GiftCardMall and MyGift card guide with balance-check tips, activation info, Visa use and answers to common questions. Confirm details with your card issuer.",
   applicationName: "Goodkind",
   keywords: [
-    "gift card tips",
-    "check gift card balance safely",
-    "gift card safety",
-    "gift card FAQs",
+    "GiftCardMall MyGift",
+    "GiftCardMall balance",
+    "MyGift balance guide",
+    "GiftCardMall card activation",
+    "MyGift Visa usage",
+    "prepaid gift card help",
   ],
   alternates: {
     canonical: "/",
@@ -24,23 +26,23 @@ export const metadata = {
     locale: "en_US",
     url: "/",
     siteName: "Goodkind",
-    title: "Goodkind | Your Gift Card Field Guide",
+    title: "GiftCardMall & MyGift Guide | Balance & Activation",
     description:
-      "Simple, independent tips for checking, using, and keeping your gift cards safe.",
+      "Independent GiftCardMall and MyGift card guide with balance-check tips, activation info, Visa use and answers to common questions. Confirm details with your card issuer.",
     images: [
       {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "Goodkind — your gift card field guide",
+        alt: "Independent GiftCardMall and MyGift balance and activation guide",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Goodkind | Your Gift Card Field Guide",
+    title: "GiftCardMall & MyGift Guide | Balance & Activation",
     description:
-      "Simple, independent tips for checking, using, and keeping your gift cards safe.",
+      "Independent GiftCardMall and MyGift card guide with balance-check tips, activation info, Visa use and answers to common questions. Confirm details with your card issuer.",
     images: ["/opengraph-image"],
   },
   icons: {

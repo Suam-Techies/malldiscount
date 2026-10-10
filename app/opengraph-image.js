@@ -6,7 +6,8 @@ export const size = {
 };
 
 export const contentType = "image/png";
-export const alt = "Goodkind — your gift card field guide";
+export const alt =
+  "Independent GiftCardMall and MyGift balance and activation guide";
 
 export default function OpenGraphImage() {
   return new ImageResponse(

@@ -20,6 +20,7 @@ The site provides:
 - Page title, description, canonical URL, and social-sharing metadata.
 - A custom SVG favicon, Apple touch icon, and generated social-sharing image.
 - Search-engine directives at `/robots.txt` and a sitemap at `/sitemap.xml`.
+- Crawlers are allowed to fetch `/_next/` assets required to render the page.
 
 After deploying to a public HTTPS domain:
 
