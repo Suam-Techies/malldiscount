@@ -29,7 +29,7 @@ export default function Hero() {
 
 
           <div className="btns">
-            <a href="#balance" className="btn-custom btn-p">
+            <a href="https://www.mycardwallet.com/chs/mygift/" className="btn-custom btn-p">
               Visit Official MyGiftWebsite
               <svg
                 className="ico"
