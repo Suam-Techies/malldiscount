@@ -3,16 +3,16 @@ export default function CtaSection() {
     <section className="pt-0">
       <div className="wrap">
         <div className="cta-section">
-          <h2>Ready to Check Your Gift Card Balance?</h2>
+          <h2>Ready to Check Your GiftCardMall Card Balance?</h2>
           <p className="mb-3">
             Before making your next purchase, confirm the available funds on your
-            gift card and review any recent transactions. Using the correct card
+            GiftCardMall gift card and review any recent transactions. Using the correct GiftCardMall card
             management service can help you understand your balance and avoid
             unnecessary payment issues.
           </p>
           <p className="small mb-4 text-secondary">
-            Visit the verified card website printed on your gift card to check
-            your balance, follow activation instructions, or find assistance
+            Visit the verified GiftCardMall card website printed on your gift card to check
+            your GiftCardMall balance, follow activation instructions, or find assistance
             with a card-related problem.
           </p>
           <div className="btns justify-content-center">
@@ -22,7 +22,7 @@ export default function CtaSection() {
               rel="noopener noreferrer"
               className="btn-custom btn-p"
             >
-              Visit Verified Card Website
+              Visit Verified GiftCardMall Website
               <svg
                 className="ico"
                 viewBox="0 0 16 16"

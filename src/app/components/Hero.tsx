@@ -67,9 +67,9 @@ export default function Hero() {
           {/* Checklist icon and pills in one line flex-direction row */}
           <div className="checklist-row">
             {[
-              "Step-by-step guidance",
-              "Official-site access guidance",
-              "Free balance planner",
+              "GiftCardMall step-by-step guidance",
+              "GiftCardMall official access",
+              "GiftCardMall balance planner",
             ].map((text, idx) => (
               <span key={idx} className="checklist-pill">
                 <svg
@@ -93,13 +93,13 @@ export default function Hero() {
         {/* Card Visual */}
         <div className="stage" aria-hidden="true">
           <div className="gift-card c1">
-            <div className="card-brand">Gift Card</div>
+            <div className="card-brand">GiftCardMall</div>
             <div />
             <div />
           </div>
           <div className="gift-card c2">
             <div>
-              <div className="card-brand">MyGift Prepaid</div>
+              <div className="card-brand">GiftCardMall Prepaid</div>
               <div className="card-chip" />
             </div>
             <div>

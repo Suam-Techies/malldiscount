@@ -1,26 +1,26 @@
 export default function SecurityTips() {
   const protectTips = [
-    "Keep your purchase receipt until the card balance has been used.",
-    "Store the card in a secure place.",
-    "Do not disclose your card number or security code in unsolicited emails, calls, or messages.",
-    "Check the website address carefully before submitting card information.",
-    "Contact the issuer promptly if your card is lost, stolen, or used without your permission.",
+    "Keep your GiftCardMall purchase receipt until the card balance has been used.",
+    "Store your GiftCardMall card in a secure place.",
+    "Do not disclose your GiftCardMall card number or security code in unsolicited messages.",
+    "Check the website address carefully before submitting GiftCardMall card information.",
+    "Contact the issuer promptly if your GiftCardMall card is lost, stolen, or compromised.",
   ];
 
   const carefulTips = [
-    "Check your available balance before shopping.",
-    "Compare the purchase total with the funds remaining on your card.",
-    "Ask the merchant whether split payments are accepted if your balance is insufficient.",
-    "Check whether the issuer requires a billing address for online purchases.",
-    "Be aware that hotels, fuel stations, and restaurants may place temporary authorization holds on prepaid cards.",
+    "Check your available GiftCardMall balance before shopping.",
+    "Compare the purchase total with the funds remaining on your GiftCardMall card.",
+    "Ask the merchant whether split payments are accepted for GiftCardMall cards.",
+    "Check whether the issuer requires a billing address for GiftCardMall online purchases.",
+    "Be aware that gas pumps and restaurants may place temporary holds on GiftCardMall cards.",
   ];
 
   const supportIssues = [
-    "Card activation",
-    "Declined purchases",
-    "Incorrect balance information",
-    "Unrecognized transactions",
-    "Lost, stolen, or damaged cards",
+    "GiftCardMall card activation assistance",
+    "Declined GiftCardMall card purchases",
+    "Incorrect GiftCardMall balance information",
+    "Unrecognized GiftCardMall card transactions",
+    "Lost, stolen, or damaged GiftCardMall cards",
   ];
 
   return (
@@ -28,11 +28,11 @@ export default function SecurityTips() {
       <div className="wrap">
         <div className="section-heading">
           <div className="section-kicker">Best Practices &amp; Assistance</div>
-          <h2>GiftCardMall/MyGift Tips and Customer Support</h2>
+          <h2>GiftCardMall &amp; MyGift Tips and Customer Support</h2>
           <p>
-            Using a prepaid gift card responsibly can make everyday shopping
+            Using a prepaid GiftCardMall card responsibly can make everyday shopping
             easier. The following recommendations can help you protect your
-            funds and resolve common problems.
+            funds and resolve common GiftCardMall card issues.
           </p>
         </div>
 
@@ -58,10 +58,10 @@ export default function SecurityTips() {
                 </svg>
               </div>
               <h3 className="h5 fw-bold mb-2">
-                1. Protect Your Gift Card Information
+                1. Protect Your GiftCardMall Card Information
               </h3>
               <p className="mb-3">
-                Your gift card details should be treated like cash because someone
+                Your GiftCardMall card details should be treated like cash because someone
                 who obtains them may be able to use the available funds.
               </p>
               <ul className="mb-0">
@@ -95,9 +95,9 @@ export default function SecurityTips() {
                   <line x1="1" y1="10" x2="23" y2="10" />
                 </svg>
               </div>
-              <h3 className="h5 fw-bold mb-2">2. Use Your Card Carefully</h3>
+              <h3 className="h5 fw-bold mb-2">2. Use Your GiftCardMall Card Carefully</h3>
               <p className="mb-3">
-                A few simple precautions can help prevent payment difficulties.
+                A few simple precautions can help prevent GiftCardMall payment difficulties.
               </p>
               <ul className="mb-0">
                 {carefulTips.map((tip, idx) => (
@@ -138,9 +138,9 @@ export default function SecurityTips() {
                       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                     </svg>
                   </div>
-                  <h3 className="h5 fw-bold mb-2">3. Get Help When You Need It</h3>
+                  <h3 className="h5 fw-bold mb-2">3. Get GiftCardMall Help When You Need It</h3>
                   <p className="mb-3">
-                    If you experience a problem with your card, use the official
+                    If you experience a problem with your GiftCardMall card, use the official
                     support channel provided by the issuer. Customer support may
                     be able to assist with issues involving:
                   </p>
@@ -154,8 +154,7 @@ export default function SecurityTips() {
                   <p className="small text-secondary mb-0">
                     Keep your purchase receipt and relevant transaction
                     information available when contacting support. Do not send
-                    your complete card credentials to an unverified website or
-                    individual.
+                    your complete GiftCardMall credentials to an unverified website.
                   </p>
                 </div>
 
@@ -167,10 +166,10 @@ export default function SecurityTips() {
                       border: "1px solid var(--n300)",
                     }}
                   >
-                    <h4 className="h6 fw-bold mb-2">Need Direct Issuer Help?</h4>
+                    <h4 className="h6 fw-bold mb-2">Need GiftCardMall Issuer Help?</h4>
                     <p className="small text-secondary mb-3">
                       For assistance, use the customer service number printed on the
-                      back of your card or the verified support website specified
+                      back of your GiftCardMall card or the verified support website specified
                       by the issuer.
                     </p>
                     <a
@@ -179,7 +178,7 @@ export default function SecurityTips() {
                       rel="noopener noreferrer"
                       className="btn-custom btn-p w-100 justify-content-center"
                     >
-                      Visit Official Portal
+                      Visit Official GiftCardMall Portal
                       <svg
                         className="ico"
                         viewBox="0 0 16 16"
