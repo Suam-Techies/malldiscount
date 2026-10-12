@@ -27,7 +27,7 @@ export default function Footer() {
         </div>
 
         <div className="d-flex justify-content-between align-items-center flex-wrap gap-2 footer-bottom">
-          <div>&copy; 2026 GiftCardMall. All rights reserved.</div>
+          <div>&copy; 2026 GiftCardMallActivation.com. All rights reserved.</div>
           <div>Independent Informational Resource</div>
         </div>
       </div>

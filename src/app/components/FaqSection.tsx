@@ -45,7 +45,7 @@ const faqs: FaqItem[] = [
     a: "This depends on the retailer. Many stores allow split-tender payments where you charge your remaining balance first, then pay the difference with cash or another card.",
   },
   {
-    q: "Why does my available GiftCardMall balance look lower than expected?",
+    q: "Why does my available balance look lower than expected?",
     a: "Recent transactions, processing fees, or temporary holds from gas pumps or restaurants can affect your balance. Review your card history to verify pending charges.",
   },
 ];
