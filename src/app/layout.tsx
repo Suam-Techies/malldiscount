@@ -2,12 +2,17 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.giftcardmallactivation.com"),
   title: "GiftCardMall/MyGift Balance Check & Card Activation Guide | GiftCardMall",
   description:
     "Independent GiftCardMall/MyGift guide: learn how to check your gift card balance, understand activation, use the balance planner, and protect your card details.",
   robots: "index, follow, max-snippet:-1",
+  alternates: {
+    canonical: "https://www.giftcardmallactivation.com/",
+  },
   openGraph: {
     type: "website",
+    url: "https://www.giftcardmallactivation.com/",
     title: "GiftCardMall/MyGift Balance Check & Card Activation Guide",
     description:
       "Check your MyGift balance, understand activation, use the balance planner, and find customer support guidance.",
