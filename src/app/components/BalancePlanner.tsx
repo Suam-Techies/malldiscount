@@ -28,7 +28,7 @@ export default function BalancePlanner() {
       <div className="wrap">
         <div className="section-heading">
           <div className="section-kicker">Balance Calculator</div>
-          <h2>GiftCardMall &amp; MyGift Balance Planner: Estimate Your Next Purchase</h2>
+          <h2>GiftCardMall/MyGift Balance Planner: Estimate Your Next Purchase</h2>
           <p>
             Planning a purchase before checkout can help you decide whether your
             GiftCardMall gift card has enough funds to cover the total cost. A balance planner
@@ -43,7 +43,7 @@ export default function BalancePlanner() {
           <div className="col-12 col-md-6">
             <div className="info-card h-100">
               <h3 className="h6 fw-bold mb-3" style={{ color: "var(--n900)" }}>
-                Information to Enter for GiftCardMall
+                Information to Enter for GiftCardMall/MyGift
               </h3>
               <p className="small text-secondary mb-3">
                 To estimate your purchase, gather these details:
@@ -145,11 +145,10 @@ export default function BalancePlanner() {
                       key={preset}
                       type="button"
                       onClick={() => setInitialBalance(preset)}
-                      className={`btn btn-sm ${
-                        initialBalance === preset
+                      className={`btn btn-sm ${initialBalance === preset
                           ? "btn-primary"
                           : "btn-outline-secondary"
-                      }`}
+                        }`}
                       style={{
                         borderRadius: "8px",
                         fontSize: "0.8125rem",
@@ -263,9 +262,8 @@ export default function BalancePlanner() {
                     Estimated Remaining Balance
                   </span>
                   <span
-                    className={`calc-result-value ${
-                      remaining >= 0 ? "positive" : "negative"
-                    }`}
+                    className={`calc-result-value ${remaining >= 0 ? "positive" : "negative"
+                      }`}
                     style={{ fontSize: "1.25rem" }}
                   >
                     ${remaining >= 0 ? remaining.toFixed(2) : "0.00"}
@@ -283,8 +281,8 @@ export default function BalancePlanner() {
                           percentUsed > 100
                             ? "var(--err)"
                             : percentUsed > 80
-                            ? "var(--a500)"
-                            : "var(--ok)",
+                              ? "var(--a500)"
+                              : "var(--ok)",
                       }}
                     />
                   </div>
