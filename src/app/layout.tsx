@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const siteTitle = "GiftCardMall/MyGift | Check Your Balance | Official Website";
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.giftcardmallactivation.com"),
-  title: "GiftCardMall/MyGift |Check Your Balance | Official Website",
+  title: siteTitle,
   description:
     "Check your GiftCardMall/MyGift balance, activate your gift card, and review transactions online with this simple www.giftcardmall.com/mygift guide.",
   robots: "index, follow, max-snippet:-1",
@@ -13,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://www.giftcardmallactivation.com/",
-    title: "Prepaid Card Balance Check & Card Activation Guide",
+    title: siteTitle,
     description:
       "Check your card balance, understand activation, use the balance planner, and find customer support guidance.",
     siteName: "GiftCardMall",
@@ -31,6 +33,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <title>{siteTitle}</title>
+        <meta name="title" content={siteTitle} />
         <link
           rel="icon"
           href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231e5bc6'/%3E%3Cpath d='M8 13h16v11H8zM6 9h20v4H6zM16 9v15' stroke='%23fff' stroke-width='2' fill='none'/%3E%3C/svg%3E"
