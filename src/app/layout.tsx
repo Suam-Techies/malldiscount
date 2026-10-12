@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.giftcardmallactivation.com"),
-  title: "GiftCardMall/MyGift Balance Check Your Card Online | GiftCardMall",
+  title: "GiftCardMall/MyGift Balance Check Your Card Online",
   description:
     "Check your GiftCardMall/MyGift balance, activate your gift card, and review transactions online with this simple www.giftcardmall.com/mygift guide.",
   robots: "index, follow, max-snippet:-1",
