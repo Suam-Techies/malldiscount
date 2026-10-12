@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.giftcardmallactivation.com"),
   title: "GiftCardMall/MyGift Balance Check & Card Activation Guide | GiftCardMall",
   description:
-    "Independent GiftCardMall/MyGift guide: learn how to check your gift card balance, understand activation, use the balance planner, and protect your card details.",
+    "Independent prepaid card guide: learn how to check your gift card balance, understand activation, use the balance planner, and protect your card details.",
   robots: "index, follow, max-snippet:-1",
   alternates: {
     canonical: "https://www.giftcardmallactivation.com/",
@@ -13,9 +13,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://www.giftcardmallactivation.com/",
-    title: "GiftCardMall/MyGift Balance Check & Card Activation Guide",
+    title: "Prepaid Card Balance Check & Card Activation Guide",
     description:
-      "Check your MyGift balance, understand activation, use the balance planner, and find customer support guidance.",
+      "Check your card balance, understand activation, use the balance planner, and find customer support guidance.",
     siteName: "GiftCardMall",
   },
   other: {
@@ -46,39 +46,39 @@ export default function RootLayout({
                   url: "/",
                   name: "GiftCardMall",
                   description:
-                    "Independent GiftCardMall/MyGift balance check and card activation guide.",
+                    "Independent balance check and card activation guide.",
                   inLanguage: "en-US",
                 },
                 {
                   "@type": "WebPage",
                   url: "/",
-                  name: "GiftCardMall/MyGift Balance Check & Card Activation Guide",
+                  name: "Balance Check & Card Activation Guide",
                 },
                 {
                   "@type": "FAQPage",
                   mainEntity: [
                     {
                       "@type": "Question",
-                      name: "What is GiftCardMall/MyGift?",
+                      name: "What is MyGift card service?",
                       acceptedAnswer: {
                         "@type": "Answer",
-                        text: "GiftCardMall/MyGift refers to card management services associated with eligible prepaid gift cards. Depending on the card, these services may allow users to check available funds, review transactions, or complete activation and registration steps.",
+                        text: "MyGift refers to card management services associated with eligible prepaid gift cards to check available funds and review transactions.",
                       },
                     },
                     {
                       "@type": "Question",
-                      name: "How can I check my MyGift balance online?",
+                      name: "How can I check my card balance online?",
                       acceptedAnswer: {
                         "@type": "Answer",
-                        text: "Visit the verified card management website printed on your card or packaging. Follow the instructions provided by the issuer to view your available funds and any available transaction details.",
+                        text: "Visit the verified card management website printed on your card or packaging. Follow the instructions provided by the issuer to view your available funds.",
                       },
                     },
                     {
                       "@type": "Question",
-                      name: "How do I activate my GiftCardMall/MyGift card?",
+                      name: "How do I activate my card?",
                       acceptedAnswer: {
                         "@type": "Answer",
-                        text: "First, check whether your card was activated when purchased. If further activation is required, follow the instructions supplied with your card or contact the issuer using the customer service details printed on it.",
+                        text: "First, check whether your card was activated when purchased. If further activation is required, follow the instructions supplied with your card.",
                       },
                     },
                   ],

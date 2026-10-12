@@ -67,9 +67,9 @@ export default function Hero() {
           {/* Checklist icon and pills in one line flex-direction row */}
           <div className="checklist-row">
             {[
-              "GiftCardMall step-by-step guidance",
-              "GiftCardMall official access",
-              "GiftCardMall balance planner",
+              "Step-by-step guidance",
+              "Official access links",
+              "Balance planner tool",
             ].map((text, idx) => (
               <span key={idx} className="checklist-pill">
                 <svg

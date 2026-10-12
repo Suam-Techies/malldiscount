@@ -6,13 +6,13 @@ export default function CtaSection() {
           <h2>Ready to Check Your GiftCardMall Card Balance?</h2>
           <p className="mb-3">
             Before making your next purchase, confirm the available funds on your
-            GiftCardMall gift card and review any recent transactions. Using the correct GiftCardMall card
+            gift card and review any recent transactions. Using the correct card
             management service can help you understand your balance and avoid
             unnecessary payment issues.
           </p>
           <p className="small mb-4 text-secondary">
-            Visit the verified GiftCardMall card website printed on your gift card to check
-            your GiftCardMall balance, follow activation instructions, or find assistance
+            Visit the verified card website printed on your gift card to check
+            your balance, follow activation instructions, or find assistance
             with a card-related problem.
           </p>
           <div className="btns justify-content-center">

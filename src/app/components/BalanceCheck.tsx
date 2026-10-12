@@ -38,13 +38,13 @@ export default function BalanceCheck() {
     <section id="balance">
       <div className="wrap">
         <div className="section-heading">
-          <div className="section-kicker">GiftCardMall Balance Inquiry</div>
+          <div className="section-kicker">Card Balance Inquiry</div>
           <h2>How to Check Your GiftCardMall / MyGift Balance</h2>
           <p>
             Checking your available GiftCardMall gift card balance before making a purchase can
             help you avoid declined transactions and unexpected payment
-            problems. Eligible GiftCardMall / MyGift cardholders can use the official GiftCardMall card management
-            website specified on their card to review their available GiftCardMall balance and
+            problems. Eligible cardholders can use the official card management
+            website specified on their card to review their available balance and
             transaction activity.
           </p>
         </div>
@@ -68,9 +68,9 @@ export default function BalanceCheck() {
         <div className="row g-4 mt-2">
           <div className="col-12 col-lg-7">
             <div className="info-box mt-0 h-100">
-              <h3 className="h6 fw-bold mb-2">What You May Need for GiftCardMall Lookup</h3>
+              <h3 className="h6 fw-bold mb-2">What You May Need for Card Lookup</h3>
               <p className="text-secondary small mb-3">
-                Depending on your GiftCardMall card and its issuer, you may need the following
+                Depending on your card and its issuer, you may need the following
                 information:
               </p>
               <ul>
@@ -109,14 +109,14 @@ export default function BalanceCheck() {
                   >
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                   </svg>
-                  GiftCardMall Security Reminder
+                  Cardholder Security Reminder
                 </div>
                 <p
                   className="mb-3"
                   style={{ fontSize: "0.875rem", color: "var(--n700)", lineHeight: 1.6 }}
                 >
-                  Never share your GiftCardMall card number, PIN, or security code with
-                  an unknown person. Only enter sensitive GiftCardMall card information on the
+                  Never share your card number, PIN, or security code with
+                  an unknown person. Only enter sensitive card information on the
                   verified website specified by your card issuer.
                 </p>
               </div>

@@ -27,14 +27,14 @@ export default function BalancePlanner() {
     <section id="planner">
       <div className="wrap">
         <div className="section-heading">
-          <div className="section-kicker">GiftCardMall Calculator</div>
+          <div className="section-kicker">Balance Calculator</div>
           <h2>GiftCardMall &amp; MyGift Balance Planner: Estimate Your Next Purchase</h2>
           <p>
             Planning a purchase before checkout can help you decide whether your
-            GiftCardMall gift card has enough funds to cover the total cost. A GiftCardMall balance planner
+            GiftCardMall gift card has enough funds to cover the total cost. A balance planner
             can estimate the amount remaining after a purchase, including an
             estimated sales tax amount. It can also help you determine whether you
-            might need another payment method alongside your GiftCardMall card.
+            might need another payment method alongside your card.
           </p>
         </div>
 
@@ -46,16 +46,16 @@ export default function BalancePlanner() {
                 Information to Enter for GiftCardMall
               </h3>
               <p className="small text-secondary mb-3">
-                To estimate your GiftCardMall purchase, gather these details:
+                To estimate your purchase, gather these details:
               </p>
               <ul className="mb-0">
                 <li className="mb-2">
-                  <strong>Current GiftCardMall card balance:</strong> The amount
+                  <strong>Current card balance:</strong> The amount
                   currently available on your card.
                 </li>
                 <li className="mb-2">
                   <strong>Planned purchase amount:</strong> The price of the
-                  items you intend to buy with GiftCardMall.
+                  items you intend to buy.
                 </li>
                 <li className="mb-0">
                   <strong>Estimated sales tax:</strong> The applicable tax rate
@@ -68,15 +68,15 @@ export default function BalancePlanner() {
           <div className="col-12 col-md-6">
             <div className="info-card h-100">
               <h3 className="h6 fw-bold mb-3" style={{ color: "var(--n900)" }}>
-                Understanding Your GiftCardMall Results
+                Understanding Your Calculation Results
               </h3>
               <p className="small text-secondary mb-2">
-                After entering the amounts, the GiftCardMall calculator can estimate:
+                After entering the amounts, the calculator can estimate:
               </p>
               <ul className="mb-3">
                 <li>The purchase total after tax</li>
-                <li>The amount deducted from your GiftCardMall gift card</li>
-                <li>The GiftCardMall balance remaining after checkout</li>
+                <li>The amount deducted from your gift card</li>
+                <li>The balance remaining after checkout</li>
                 <li>Any additional amount you may need to pay</li>
               </ul>
               <div
@@ -89,7 +89,7 @@ export default function BalancePlanner() {
               >
                 <strong>Worked Example:</strong> Suppose your GiftCardMall gift card has $150
                 available and your purchase total, including tax, is $90.95. Your
-                estimated remaining GiftCardMall balance would be $59.05.
+                estimated remaining balance would be $59.05.
               </div>
             </div>
           </div>

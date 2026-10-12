@@ -6,8 +6,8 @@ export default function Footer() {
           <div>
             <div className="footer-title">GiftCardMall</div>
             <p className="footer-desc">
-              Your independent informational guide for GiftCardMall/MyGift balance
-              checks, prepaid card activation, and consumer protection.
+              Your independent informational guide for prepaid and MyGift balance
+              checks, card activation, and consumer protection.
             </p>
           </div>
 

@@ -39,18 +39,18 @@ export default function ActivationGuide() {
     <section id="activation" style={{ background: "rgba(255, 255, 255, 0.5)" }}>
       <div className="wrap">
         <div className="section-heading">
-          <div className="section-kicker">GiftCardMall Card Activation</div>
+          <div className="section-kicker">Card Activation</div>
           <h2>How to Activate a GiftCardMall / MyGift Card</h2>
           <p>
-            Many prepaid GiftCardMall gift cards are activated by the retailer when purchased.
+            Many prepaid gift cards are activated by the retailer when purchased.
             However, some GiftCardMall cards may require an additional activation step before
-            they can be used. If your GiftCardMall card is not ready to use, check the
+            they can be used. If your card is not ready to use, check the
             instructions included with the card or printed on its packaging.
           </p>
         </div>
 
         <h3 className="h5 fw-bold mb-3" style={{ color: "var(--n900)" }}>
-          Steps to Follow for GiftCardMall Card Activation
+          Steps to Follow for Card Activation
         </h3>
 
         <div className="steps-list mb-4">
@@ -88,7 +88,7 @@ export default function ActivationGuide() {
             </h3>
           </div>
           <p className="small text-secondary mb-3">
-            If you cannot complete the GiftCardMall card activation process, try these steps:
+            If you cannot complete the card activation process, try these steps:
           </p>
           <ul className="mb-0">
             {failureTips.map((tip, idx) => (
