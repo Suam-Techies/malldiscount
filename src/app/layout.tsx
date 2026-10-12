@@ -3,9 +3,9 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.giftcardmallactivation.com"),
-  title: "GiftCardMall/MyGift Balance Check & Card Activation Guide | GiftCardMall",
+  title: "GiftCardMall/MyGift Balance Check Your Card Online | GiftCardMall",
   description:
-    "Independent prepaid card guide: learn how to check your gift card balance, understand activation, use the balance planner, and protect your card details.",
+    "Check your GiftCardMall/MyGift balance, activate your gift card, and review transactions online with this simple www.giftcardmall.com/mygift guide.",
   robots: "index, follow, max-snippet:-1",
   alternates: {
     canonical: "https://www.giftcardmallactivation.com/",
