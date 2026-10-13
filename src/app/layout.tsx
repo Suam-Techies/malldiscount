@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const siteTitle = "GiftCardMall/MyGift | Check Your Balance | Official Website";
+const siteTitle = "GiftCardMall/MyGift | Check Your Balance | Activate Card";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.giftcardmallactivation.com"),
