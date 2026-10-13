@@ -5,6 +5,7 @@ import ActivationGuide from "./components/ActivationGuide";
 import BalancePlanner from "./components/BalancePlanner";
 import SecurityTips from "./components/SecurityTips";
 import FaqSection from "./components/FaqSection";
+import ContactSection from "./components/ContactSection";
 import CtaSection from "./components/CtaSection";
 import Disclaimer from "./components/Disclaimer";
 import Footer from "./components/Footer";
@@ -20,6 +21,7 @@ export default function Home() {
         <BalancePlanner />
         <SecurityTips />
         <FaqSection />
+        <ContactSection />
         <CtaSection />
       </main>
       <Footer />
